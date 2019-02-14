@@ -1,0 +1,177 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="shyakocat">
+    <title>MMDStudio  v0.0.1 · shyakocat</title>
+    <link href="Bootstrap/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+        }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link href="Bootstrap/bootstrap/site/docs/4.2/examples/album/album.css" rel="stylesheet"><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="Bootstrap/bootstrap/site/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="Bootstrap/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const fs=require('fs');
+        const path=require('path');
+        const iconv=require('iconv-lite');
+        const {loadDB,saveDB,DBItem}=require('./src/Tiny/dbIO');
+        const {openFile,searchFile}=require('./src/Tiny/txtIO');
+        const {setCanvas,loadCanvas,saveCanvas,saveCanvasSync}=require('./src/Tiny/imgIO');
+    </script>
+    <script src="src/Model/Pmx/texture-util.js"></script>
+    <script>
+        var MMDStudioDB;
+        var itemMap=new Map(),itemSet=new Set();
+        function modalShow(title,text){
+            $("#myModalLabel").html(title);
+            $("#myModalText").html(text);
+            $("#myModal").modal('show');
+        }
+        function itemAdd(x){
+            let da=$("#displayArea .row");
+            da.append(x.html());
+            itemMap.set(da.children().last()[0],x);
+            itemMap.set(x,da.children().last());
+        }
+        function itemFather(x,n){
+            if(n==0)return x;
+            return itemFather(x.parentNode,n-1);
+        }
+        function itemRemove(x){
+            let y=itemMap.get(x);
+            itemMap.delete(x);
+            itemMap.delete(y[0]);
+            itemSet.delete(x.dir);
+            y.remove();
+            MMDStudioDB.Main.splice(MMDStudioDB.Main.indexOf(x),1);
+            saveDB(MMDStudioDB);
+        }
+        var global_url,global_create,global_item,global_canvas,global_data;
+        function cacheClean(){
+            global_url=global_create=global_item=global_canvas=global_data=null;
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">关于</h4>
+                    <p class="text-muted">MMDStudio初测版。提供pmd,pmx,obj,x模型的预览功能。</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">链接</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://bowlroll.net/" class="text-white">Bowlroll</a></li>
+                        <li><a href="https://www.deviantart.com/" class="text-white">Devariant</a></li>
+                        <li><a href="https://3d.nicovideo.jp/" class="text-white">Nico立体</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2" focusable="false" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                <strong>MMDStudio</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">MMDStudio</h1>
+            <p class="lead text-muted">开启你的MMD之旅</p>
+            <p>
+                <a href="javascript:
+                    t=searchFile((url)=>{return /\.(pmx|pmd|obj|x)$/i.test(url)});
+                    for(url in t)
+                        if(!itemSet.has(t[url])){
+                            var i=new DBItem();
+                            i.create(t[url]);
+                            itemAdd(i);
+                            MMDStudioDB.Main.push(i);
+                            itemSet.add(i.dir);
+                        }
+                    saveDB(MMDStudioDB);" class="btn btn-primary my-2">搜索MMD模型</a>
+                <a href="javascript:
+                    t=openFile();
+                    if(t)modalShow(t.path,t.content,'shift_jis');" class="btn btn-secondary my-2">打开乱码文件</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- 模态框（Modal） -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="myModalText">Text</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <!--<button type="button" class="btn btn-primary">确定</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $('#myModal').on('hidden.bs.modal',()=>{
+                    $("#myModalLabel").empty();
+                    $("#myModalText").empty();
+                    cacheClean();
+                });
+        });
+    </script>
+
+    <div id="displayArea" class="album py-5 bg-light">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </div>
+
+    <script>
+        MMDStudioDB=loadDB();
+        for(let proto in MMDStudioDB.Main){
+            let i=new DBItem();
+            i.in(MMDStudioDB.Main[proto]);
+            if(!itemSet.has(i.dir))itemAdd(i);
+            itemSet.add(i.dir);
+            MMDStudioDB.Main[proto]=i;
+        }
+    </script>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>模板为<a href="https://getbootstrap.com/">Bootstrap</a>a>的Album样例。</p>
+        <p>如有问题可以<a href="https://getbootstrap.com/">访问github</a>或<a href="mailto:1394578206@qq.com">发送Email</a>.</p>
+    </div>
+</footer>
+</body>

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/index.html" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54285901-2dcb-4a75-9c7b-fdbde8213357" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/ISSUE_TEMPLATE/bug.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/ISSUE_TEMPLATE/feature.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/.github/SUPPORT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/banner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/build-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/change-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/generate-sri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/ship.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/svgo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/build/vnu-jar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/nuget/MyGet.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/nuget/bootstrap.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstrap/bootstrap/nuget/bootstrap.sass.nuspec" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MMDStudio" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tiny/dbIO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2941">
+              <caret line="173" column="82" selection-start-line="173" selection-start-column="82" selection-end-line="173" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Pmx/PmxSh.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!block;n#FileReader#0" />
+                <element signature="n#!!block;n#Vec2#0" />
+                <element signature="n#!!block;n#Vec3#0" />
+                <element signature="n#!!block;n#Vec4#0" />
+                <element signature="n#!!block;n#Flag#0" />
+                <element signature="n#!!block;n#readBoneIndex#0" />
+                <element signature="n#!!block;n#BDEF1#0" />
+                <element signature="n#!!block;n#BDEF2#0" />
+                <element signature="n#!!block;n#BDEF4#0" />
+                <element signature="n#!!block;n#SDEF#0" />
+                <element signature="n#!!block;n#PMXTexture#0" />
+                <element signature="n#!!block;n#PMXHeader#0" />
+                <element signature="n#!!block;n#PMXVertex#0" />
+                <element signature="n#!!block;n#compileShader#0" />
+                <element signature="n#!!block;n#createProgram#0" />
+                <element signature="n#!!block;n#createShaderFromScript#0" />
+                <element signature="n#!!block;n#createProgramFromScripts#0" />
+                <element signature="n#!!block;n#generateVerticeBuffer#0" />
+                <element signature="n#!!block;n#draw#0" />
+                <element signature="n#!!block;n#makePerspective#0" />
+                <element signature="n#!!block;n#makeTranslation#0" />
+                <element signature="n#!!block;n#makeYRotation#0" />
+                <element signature="n#!!block;n#matrixMultiply#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Obj/ObjSh.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5481" column="19" lean-forward="true" selection-start-line="5481" selection-start-column="19" selection-end-line="5481" selection-end-column="19" />
+              <folding>
+                <element signature="e#12#20#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tiny/txtIO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tiny/imgIO.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console.log</find>
+      <find>console.log(Te</find>
+      <find>loadTe</find>
+      <find>lastIndexOf</find>
+      <find>WebGLTexture</find>
+      <find>TextureLoader</find>
+      <find>textureUtil</find>
+      <find>Buffer</find>
+      <find>webgl-</find>
+      <find>loadTexture</find>
+      <find>loadIMG</find>
+      <find>loadIMGTexture</find>
+      <find>name</find>
+      <find>tga</find>
+      <find>loader</find>
+      <find>readUint</find>
+      <find>animate</find>
+      <find>.start</find>
+      <find>.init</find>
+      <find>update</find>
+      <find>.update</find>
+      <find>Text</find>
+      <find>Data</find>
+      <find>= data</find>
+      <find>endScene</find>
+      <find>JSC3D</find>
+      <find>CanvasData</find>
+      <find>ctx2d</find>
+      <find>usewebgl</find>
+      <find>textureIndex</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Bootstrap/bootstrap/dist</replace>
+      <replace>read</replace>
+      <replace>MMD</replace>
+      <replace>$</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\shyakocat\WebstormProjects\MMDStudio\Obj\webgl-obj</dir>
+      <dir>C:\Users\shyakocat\WebstormProjects\MMDStudio\Bootstrap\bootstrap</dir>
+      <dir>C:\Users\shyakocat\WebstormProjects\MMDStudio\Bootstrap</dir>
+      <dir>C:\Users\shyakocat\WebstormProjects\MMDStudio\X</dir>
+      <dir>C:\Users\shyakocat\WebstormProjects\MMDStudio</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Bootstrap/bootstrap" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Pmd.js" />
+        <option value="$PROJECT_DIR$/Pmx.js" />
+        <option value="$PROJECT_DIR$/Pmx/pmxshell.js" />
+        <option value="$PROJECT_DIR$/Pmd/pmd.js" />
+        <option value="$PROJECT_DIR$/mmdstudio.js" />
+        <option value="$PROJECT_DIR$/Pmx/PmxSh.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/Camera.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/ObjSh.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/XSh.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/Thumbnail.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/PmxSh.html" />
+        <option value="$PROJECT_DIR$/MMDStudio/PmxSh.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/PmdSh.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/test.html" />
+        <option value="$PROJECT_DIR$/Pmd/MMD.js/PmdSh.html" />
+        <option value="$PROJECT_DIR$/MMDStudio.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/Pmd/MMD.js/index.html" />
+        <option value="$PROJECT_DIR$/PmdSh.js" />
+        <option value="$PROJECT_DIR$/MMDS.js" />
+        <option value="$PROJECT_DIR$/Pmd/MMD.js/main.js" />
+        <option value="$PROJECT_DIR$/tmp" />
+        <option value="$PROJECT_DIR$/MMDStudio/Model/Pmd/PmdSh.js" />
+        <option value="$PROJECT_DIR$/MMDStudio/Model/Pmx/PmxSh.js" />
+        <option value="$PROJECT_DIR$/src/Tiny/ImgIO.js" />
+        <option value="$PROJECT_DIR$/src/Encoding/Japanese.js" />
+        <option value="$PROJECT_DIR$/src/Encoding/ShiftJIS.js" />
+        <option value="$PROJECT_DIR$/src/Tiny/sjis.js" />
+        <option value="$PROJECT_DIR$/src/Tiny/imgIO.js" />
+        <option value="$PROJECT_DIR$/src/Tiny/sleep.js" />
+        <option value="$PROJECT_DIR$/src/Model/X/parts/xAnimationInfo.js" />
+        <option value="$PROJECT_DIR$/src/Model/X/parts/KeyFrameInfo.js" />
+        <option value="$PROJECT_DIR$/src/Model/X/parts/XAnimationObj.js" />
+        <option value="$PROJECT_DIR$/src/Model/X/parts/xBoneInf.js" />
+        <option value="$PROJECT_DIR$/bt.html" />
+        <option value="$PROJECT_DIR$/src/Tiny/txtIO.js" />
+        <option value="$PROJECT_DIR$/render.js" />
+        <option value="$PROJECT_DIR$/node_modules/_electron-search-text@0.3.0@electron-search-text/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/src/Model/Pmx/sample/js/require.js" />
+        <option value="$PROJECT_DIR$/src/Model/Pmx/texture-util/loader.js" />
+        <option value="$PROJECT_DIR$/src/Model/Pmx/texture-util.js" />
+        <option value="$PROJECT_DIR$/src/Model/Pmx/webgl-texture-util.js" />
+        <option value="$PROJECT_DIR$/src/Model/X/XSh.js" />
+        <option value="$PROJECT_DIR$/src/Model/Pmd/PmdSh.js" />
+        <option value="$PROJECT_DIR$/src/Model/Obj/ObjSh.js" />
+        <option value="$PROJECT_DIR$/src/Tiny/dbIO.js" />
+        <option value="$PROJECT_DIR$/src/Model/Pmx/PmxSh.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="445" />
+    <option name="y" value="125" />
+    <option name="width" value="2260" />
+    <option name="height" value="1745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MMDStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMDStudio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MMDStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMDStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MMDStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMDStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MMDStudio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMDStudio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Obj" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/下载/Kaku" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shyakocat\WebstormProjects\MMDStudio\src\Model\Pmx" />
+      <recent name="C:\Users\shyakocat\WebstormProjects\MMDStudio\src\Model\X" />
+      <recent name="C:\Users\shyakocat\WebstormProjects\MMDStudio\MMDStudio\Model\Pmd" />
+      <recent name="C:\Users\shyakocat\WebstormProjects\MMDStudio\MMDStudio\Model\Pmx" />
+      <recent name="C:\Users\shyakocat\WebstormProjects\MMDStudio\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shyakocat\WebstormProjects\MMDStudio\src\Tiny" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="bt.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MMDStudio/bt.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MMDStudio/Obj/3dviewer/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MMDStudio/electron-in-page-search/example/browser-window/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="t.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MMDStudio/Pmx/WebGL-pmx-demo/t.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MMDStudio/webgl-texture-utils/test.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.bt.html" />
+        <item itemvalue="JavaScript Debug.t.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54285901-2dcb-4a75-9c7b-fdbde8213357" name="Default Changelist" comment="" />
+      <created>1549006386357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549006386357</updated>
+      <workItem from="1549006387577" duration="2098000" />
+      <workItem from="1549191148757" duration="20672000" />
+      <workItem from="1549353936864" duration="2089000" />
+      <workItem from="1549357827282" duration="2156000" />
+      <workItem from="1549367255159" duration="5546000" />
+      <workItem from="1549381732813" duration="13337000" />
+      <workItem from="1549521501071" duration="622000" />
+      <workItem from="1549522437882" duration="141000" />
+      <workItem from="1549527543713" duration="9154000" />
+      <workItem from="1549545084786" duration="35271000" />
+      <workItem from="1549640240626" duration="4610000" />
+      <workItem from="1549724895303" duration="5514000" />
+      <workItem from="1549865051702" duration="3127000" />
+      <workItem from="1549874893292" duration="7003000" />
+      <workItem from="1549891731584" duration="1996000" />
+      <workItem from="1549897948490" duration="6562000" />
+      <workItem from="1549954811413" duration="2292000" />
+      <workItem from="1550046666473" duration="10203000" />
+      <workItem from="1550068512229" duration="4625000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137018000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1309" height="837" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.20784314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5033784" side_tool="true" weight="0.3375796" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.24611032" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49882352" weight="0.32570422" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922536" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49882352" visible="true" weight="0.31541726" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011765" side_tool="true" weight="0.31541726" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Obj/webgl-obj-loader" />
+      <path value="$PROJECT_DIR$/Obj/webgl-obj" />
+      <path value="$PROJECT_DIR$/jquery" />
+      <path value="$PROJECT_DIR$/Pmx/WebGL-pmx" />
+      <path value="$PROJECT_DIR$/Pmx/WebGL-pmx-demo" />
+      <path value="$PROJECT_DIR$/electron-in-page-search" />
+      <path value="$PROJECT_DIR$/Obj/3dviewer" />
+      <path value="$PROJECT_DIR$/Pmd/MMD.js" />
+      <path value="$PROJECT_DIR$/Pmx/PMX-viewer" />
+      <path value="$PROJECT_DIR$/X/threeXfileLoader" />
+      <path value="$PROJECT_DIR$/webgl-texture-utils" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/sample/lib/dat.gui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="93" selection-end-column="477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/sample/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/src/XLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/sample/lib/stats.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/sample/lib/Detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/sample/lib/OrbitControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/src/parts/xAnimationInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/src/parts/XAnimationObj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/src/parts/xBoneInf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.12.0/core-modules/vm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/X/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="240" column="362" lean-forward="true" selection-start-line="240" selection-start-column="362" selection-end-line="240" selection-end-column="362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/src/parts/KeyFrameInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/X/parts/xAnimationInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/X/parts/KeyFrameInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/X/parts/XAnimationObj.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/X/parts/xBoneInf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X/threeXfileLoader/sample/xFileLoad_basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx/app/minMatrix.js" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx-demo/README.md" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx-demo/common.js" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx-demo/minMatrix.js" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx/app/main.js" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx/app/index.html" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx-demo/main.js" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx-demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/Pmx/WebGL-pmx-demo/t.html" />
+    <entry file="file://$PROJECT_DIR$/bt.html" />
+    <entry file="file://$PROJECT_DIR$/render.js" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17175" column="12" selection-start-line="17175" selection-start-column="12" selection-end-line="17175" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_electron-search-text@0.3.0@electron-search-text/index.js" />
+    <entry file="file://$PROJECT_DIR$/webgl-texture-utils/build/texture-util.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmx/texture-util/dds.js" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmx/sample/js/gl-util.js" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmx/sample/js/require.js" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmx/texture-util/loader.js" />
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmx/texture-util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="4901" column="35" lean-forward="true" selection-start-line="4901" selection-start-column="35" selection-end-line="4901" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/X/XSh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2535" lean-forward="true" selection-start-line="2535" selection-end-line="2535" />
+          <folding>
+            <element signature="e#85#93#0" />
+            <element signature="e#2491#2499#0" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#4881#4889#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tiny/txtIO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Obj/3dviewer/jsc3d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="true" selection-end-line="5474" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tiny/imgIO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Obj/3dviewer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tiny/dbIO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="173" column="82" selection-start-line="173" selection-start-column="82" selection-end-line="173" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmd/PmdSh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="4478" column="38" selection-start-line="4478" selection-start-column="38" selection-end-line="4478" selection-end-column="38" />
+          <folding>
+            <element signature="e#82#90#0" />
+            <element signature="e#54814#54822#0" />
+            <element signature="e#58151#58159#0" />
+            <element signature="e#145242#145250#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Pmx/PmxSh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#FileReader#0" />
+            <element signature="n#!!block;n#Vec2#0" />
+            <element signature="n#!!block;n#Vec3#0" />
+            <element signature="n#!!block;n#Vec4#0" />
+            <element signature="n#!!block;n#Flag#0" />
+            <element signature="n#!!block;n#readBoneIndex#0" />
+            <element signature="n#!!block;n#BDEF1#0" />
+            <element signature="n#!!block;n#BDEF2#0" />
+            <element signature="n#!!block;n#BDEF4#0" />
+            <element signature="n#!!block;n#SDEF#0" />
+            <element signature="n#!!block;n#PMXTexture#0" />
+            <element signature="n#!!block;n#PMXHeader#0" />
+            <element signature="n#!!block;n#PMXVertex#0" />
+            <element signature="n#!!block;n#compileShader#0" />
+            <element signature="n#!!block;n#createProgram#0" />
+            <element signature="n#!!block;n#createShaderFromScript#0" />
+            <element signature="n#!!block;n#createProgramFromScripts#0" />
+            <element signature="n#!!block;n#generateVerticeBuffer#0" />
+            <element signature="n#!!block;n#draw#0" />
+            <element signature="n#!!block;n#makePerspective#0" />
+            <element signature="n#!!block;n#makeTranslation#0" />
+            <element signature="n#!!block;n#makeYRotation#0" />
+            <element signature="n#!!block;n#matrixMultiply#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Obj/ObjSh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5481" column="19" lean-forward="true" selection-start-line="5481" selection-start-column="19" selection-end-line="5481" selection-end-column="19" />
+          <folding>
+            <element signature="e#12#20#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
