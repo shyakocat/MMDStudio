@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Model/Obj/ObjSh.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5481" column="19" lean-forward="true" selection-start-line="5481" selection-start-column="19" selection-end-line="5481" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="5491" column="45" selection-start-line="5491" selection-start-column="45" selection-end-line="5491" selection-end-column="45" />
               <folding>
                 <element signature="e#12#20#0" />
               </folding>
@@ -199,7 +199,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Bootstrap/bootstrap" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -391,16 +391,15 @@
       <workItem from="1549897948490" duration="6562000" />
       <workItem from="1549954811413" duration="2292000" />
       <workItem from="1550046666473" duration="10203000" />
-      <workItem from="1550068512229" duration="4625000" />
+      <workItem from="1550068512229" duration="4807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137018000" />
+    <option name="totallyTimeSpent" value="137200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1309" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966216" visible="true" weight="0.20784314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -736,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Obj/ObjSh.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5481" column="19" lean-forward="true" selection-start-line="5481" selection-start-column="19" selection-end-line="5481" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="5491" column="45" selection-start-line="5491" selection-start-column="45" selection-end-line="5491" selection-end-column="45" />
           <folding>
             <element signature="e#12#20#0" />
           </folding>
