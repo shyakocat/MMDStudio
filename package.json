@@ -5,6 +5,6 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack": "electron-packager . MMDStudio --win --out . --arch=x64 --app-version=0.0.1 --electron-version=4.0.3"
+    "pack": "electron-packager . MMDStudio --win --out . --arch=x64 --app-version=0.0.1 --electron-version=4.0.3 --icon=./Thumbnail/cover.ico"
   }
 }
