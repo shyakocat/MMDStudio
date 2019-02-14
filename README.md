@@ -41,3 +41,4 @@ MMDStudio(当然这只是我随口编的一个很通俗的名字，以后可以�
 ![模型](Thumbnail/model2.png)
 ![正在预览模型](Thumbnail/view.png)
 ![修改条目](Thumbnail/edit.png)
+![开发者工具](Thumbnail/develop.png)
