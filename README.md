@@ -8,12 +8,20 @@ MMDStudio(当然这只是我随口编的一个很通俗的名字，以后可以�
 
 - UI框架Bootstrap:[https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
 - Pmd模型:[https://github.com/edvakf/MMD.js](https://github.com/edvakf/MMD.js)
-- Pmx模型:[https://github.com/Naouak/PMX-viewer](https://github.com/Naouak/PMX-viewer)
+- Pmx模型:[https://github.com/takahirox/MMDLoader-app](https://github.com/takahirox/MMDLoader-app)
 - X模型:[https://github.com/adrs2002/threeXfileLoader](https://github.com/adrs2002/threeXfileLoader)
 - Obj模型:[https://github.com/dendory/3dviewer](https://github.com/dendory/3dviewer)
-- 辅助读取贴图:[https://github.com/toji/webgl-texture-utils](https://github.com/toji/webgl-texture-utils)
+- (已经不再使用)Pmx模型:[https://github.com/Naouak/PMX-viewer](https://github.com/Naouak/PMX-viewer)
+- (已经不再使用)辅助读取贴图:[https://github
+.com/toji/webgl-texture-utils](https://github.com/toji/webgl-texture-utils)
 
 以上代码可能都经过了一些修改以适应软件运行。
+
+## 使用
+
+Q:怎么运行？ A:npm install后npm start。
+
+Q:Windows下怎么导出exe？  A:修改index.html中的switch_electronbuild为true。命令参照package.json中的npm pack部分。
 
 ## 注意
 
@@ -25,6 +33,12 @@ MMDStudio(当然这只是我随口编的一个很通俗的名字，以后可以�
 - 众知Electron是套了层Chromium的，所以可执行文件很大。
 - 内存占用多，性能差。
 - 这款软件只是提供了基础的预览，动作、渲染、物理等不在范围内。
+
+没想到寒假之后还能更新...那再补充点
+
+- 未使用vue等框架，直接用jQuery。耦合度太高了。
+- 存在内存泄漏，还需对three.js、chrome学习以解决。
+
 
 ## 寄语
 
@@ -42,3 +56,4 @@ MMDStudio(当然这只是我随口编的一个很通俗的名字，以后可以�
 ![正在预览模型](Thumbnail/view.png)
 ![修改条目](Thumbnail/edit.png)
 ![开发者工具](Thumbnail/develop.png)
+![更新后使用MMDLoader](Thumbnail/modelpmx.png)

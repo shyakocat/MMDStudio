@@ -120,7 +120,7 @@ function Text(){
     this.text = null;
     this.readFromFile = function(file){
         this.length=file.readUint();
-        if(this.length == 0){
+        if(this.length === 0){
             return this;
         }
         this.text = file.readUbyte(this.length);
@@ -208,8 +208,7 @@ function PMXHeader(buffer){
     this.version = buffer.readFloat();
     this.globalsCount = buffer.readByte(1)[0];
     this.globals = buffer.readByte(this.globalsCount);
-    if(this.globals[1]===0)Text.prototype.encoding='utf16';
-    else if(this.globals[1]===1)Text.prototype.encoding='utf8';
+    Text.prototype.encoding=this.globals[0]===1?'utf8':'utf16';
     this.nameLocal = new Text();
     this.nameLocal.readFromFile(buffer);
     this.nameUniversal = new Text();
@@ -275,7 +274,7 @@ function PMXMaterial(buffer, textureIndexSize){
     this.environmentIndex = readBoneIndex(buffer, textureIndexSize);
     this.environmentBlendMode = buffer.readByte(1)[0];
     this.toonReference = buffer.readByte(1)[0];
-    if(this.toonReference == 1){
+    if(this.toonReference === 1){
         this.toonValue = buffer.readByte(1)[0];
     } else {
         this.toonValue = readBoneIndex(buffer, textureIndexSize);
@@ -315,9 +314,19 @@ function PMXFile(buffer){
     }
 
     this.surfaceCount = buffer.readInt();
-    this.surfaces = this.header.globals[2]==1?new Uint8Array(this.surfaceCount):this.header.globals[2]==2?new Uint16Array(this.surfaceCount):new Uint32Array(this.surfaceCount);
-    for(i = 0; i < this.surfaceCount; i++){
-        this.surfaces[i] = (this.header.globals[2]==1?buffer.readUbyte(1)[0]:this.header.globals[2]==2?buffer.readUshort():buffer.readInt());
+    switch(this.header.globals[2]){
+        case 1:
+            this.surfaces=new Uint8Array(this.surfaceCount);
+            for(let i=0;i<this.surfaceCount;++i)this.surfaces[i]=buffer.readUbyte(1)[0];
+            break;
+        case 2:
+            this.surfaces=new Uint16Array(this.surfaceCount);
+            for(let i=0;i<this.surfaceCount;++i)this.surfaces[i]=buffer.readUshort();
+            break;
+        default:
+            this.surfaces=new Uint8Array(this.surfaceCount);
+            for(let i=0;i<this.surfaceCount;++i)this.surfaces[i]=buffer.readInt();
+            break;
     }
 
     this.textureCount = buffer.readInt();
@@ -368,6 +377,7 @@ function loadModel(canvas,url){
         }
     });
 }
+
 var gl;
 var shaderProgram;
 var textureLoader;
@@ -411,7 +421,7 @@ function createProgram(gl, vertexShader, fragmentShader) {
     }
 
     return program;
-};
+}
 
 function createShaderFromScript(gl, scriptId, opt_shaderType) {
     // look up the script tag by id.
@@ -427,9 +437,9 @@ function createShaderFromScript(gl, scriptId, opt_shaderType) {
     // If we didn't pass in a type, use the 'type' from
     // the script tag.
     if (!opt_shaderType) {
-        if (shaderScript.type == "x-shader/x-vertex") {
+        if (shaderScript.type === "x-shader/x-vertex") {
             opt_shaderType = gl.VERTEX_SHADER;
-        } else if (shaderScript.type == "x-shader/x-fragment") {
+        } else if (shaderScript.type === "x-shader/x-fragment") {
             opt_shaderType = gl.FRAGMENT_SHADER;
         } else if (!opt_shaderType) {
             throw("*** Error: shader type not set");
@@ -437,13 +447,13 @@ function createShaderFromScript(gl, scriptId, opt_shaderType) {
     }
 
     return compileShader(gl, shaderSource, opt_shaderType);
-};
+}
 
 function createProgramFromScripts(gl, vShaderSource,fShaderSource) {
     var vertexShader = compileShader(gl,vShaderSource,gl.VERTEX_SHADER);
     var fragmentShader = compileShader(gl, fShaderSource,gl.FRAGMENT_SHADER);
     return createProgram(gl, vertexShader, fragmentShader);
-};
+}
 
 
 var whiteTex;
@@ -522,7 +532,7 @@ function draw(vertices, uvs, textures, materials, indices, x,y,z, w,h, rot){
     gl.activeTexture(gl.TEXTURE0);
 
     for(var i = 1; i < materials.length; i++){
-        if(materials[i].toonReference == 0){
+        if(materials[i].toonReference === 0){
             gl.bindTexture(gl.TEXTURE_2D, textures[materials[i].textureIndex]);
             gl.uniform1i(gl.getUniformLocation(shaderProgram,"uSampler"), 0);
             gl.drawElements(gl.TRIANGLES, surfaces+materials[i].surfaceCount, gl.UNSIGNED_SHORT, surfaces);
@@ -553,7 +563,7 @@ function makePerspective(fieldOfViewInRadians, aspect, near, far) {
         0, 0, (near + far) * rangeInv, -1,
         0, 0, near * far * rangeInv * 2, 0
     ];
-};
+}
 
 
 function makeTranslation(tx, ty, tz) {
@@ -575,7 +585,7 @@ function makeYRotation(angleInRadians) {
         s, 0, c, 0,
         0, 0, 0, 1
     ];
-};
+}
 
 function matrixMultiply(a, b) {
     var a00 = a[0*4+0];
