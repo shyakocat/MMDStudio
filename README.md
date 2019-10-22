@@ -19,7 +19,7 @@ MMDStudio(当然这只是我随口编的一个很通俗的名字，以后可以�
 
 ## 使用
 
-Q:怎么运行？ A:npm install后npm start。
+Q:怎么运行？ A:新建目录Bootstrap后在内克隆bootstrap的仓库。然后npm install。运行npm start。
 
 Q:Windows下怎么导出exe？  A:修改index.html中的switch_electronbuild为true。命令参照package.json中的npm pack部分。
 
