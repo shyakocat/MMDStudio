@@ -2,7 +2,7 @@
   "name": "mmdstudio",
   "version": "0.0.2",
   "dependencies": {
-    "electron": "^4.0.3",
+    "electron": "^9.1.0",
     "iconv-lite": "^0.5.0",
     "jquery": "^3.4.1"
   },
